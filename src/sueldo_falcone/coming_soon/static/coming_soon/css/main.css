@@ -1,14 +1,14 @@
 /*
 
-************************************************* 
+*************************************************
 
     Template Author : pixelhint.com
     Author Email    : contact@pixelhint.com
     Template Name   : Notify
-    
-    
-************************************************* 
-    
+
+
+*************************************************
+
 */
 
 
@@ -82,17 +82,17 @@ h6              { font-size: .75em;}
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
 
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
 
 .wrapper{
@@ -188,10 +188,10 @@ h5, h6          { font-weight: bolder }
    color: #e3cced;
 }
 
-.subscription_form form input[type=email]::-ms-input-placeholder,  
-.subscription_form form input[type=text]::-ms-input-placeholder{  
+.subscription_form form input[type=email]::-ms-input-placeholder,
+.subscription_form form input[type=text]::-ms-input-placeholder{
    color: #e3cced;
-} 
+}
 
 .subscription_form form button{
     display: block;
@@ -254,7 +254,7 @@ h5, h6          { font-weight: bolder }
     margin: 0px;
     padding: 0px;
     z-index: -9999;
-    background: #50cda7 url('../img/bg_img_raw.jpg') no-repeat;
+    background: #50cda7 url('../img/library-488677_1920.jpg') no-repeat;
     background-position: center 0;
 
     -webkit-background-size: cover;
@@ -275,10 +275,10 @@ h5, h6          { font-weight: bolder }
     background: #50cda7;
     background: -moz-linear-gradient(top,  rgba(185, 85, 218, .9) 0%, rgba(81, 179, 160, .9) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(185, 85, 218, .9)), color-stop(100%,rgba(81, 179, 160, .9)));
-    background: -webkit-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
-    background: -o-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
-    background: -ms-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%); 
-    background: linear-gradient(to bottom,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%);
+    background: -webkit-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%);
+    background: -o-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%);
+    background: -ms-linear-gradient(top,  rgba(185, 85, 218, .9) 0%,rgba(81, 179, 160, .9) 100%);
+    background: linear-gradient(to bottom,  rgba(0, 0, 0, 0.75) 0%,rgba(56, 56, 56, 0.5) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(185, 85, 218, .9)', endColorstr='rgba(81, 179, 160, .9)',GradientType=0 );
 
 }
@@ -321,7 +321,7 @@ h5, h6          { font-weight: bolder }
     width: 100%;
     text-align: center;
     font-family: 'Lato-Bold', Arial;
-    margin: 0.25em 0 0.5em 0; 
+    margin: 0.25em 0 0.5em 0;
     font-weight: bold;
     color: #fff;
     font-size: 40px;
