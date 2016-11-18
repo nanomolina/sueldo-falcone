@@ -21,16 +21,6 @@ $(document).ready(function(){
 		});
 	}
 
-	//code for the background slider
-	$.backstretch([
-      IMG_1,
-      IMG_2,
-      IMG_3
-    ], {
-        fade: 750,
-        duration: 2500
-    });
-
  	//code for the cerlces Countdouwn
 	$(".counter").TimeCircles({
 	    "direction": "Clockwise",
