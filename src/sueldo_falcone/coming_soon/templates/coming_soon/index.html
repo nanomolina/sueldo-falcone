@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Sueldo Falcone - Página en construcción{% endblock title %}
+
+{% block styles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'coming_soon/css/reset.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'coming_soon/css/main.css' %}">
+{% endblock styles %}
+
+{% block scripts %}
+	<script type="text/javascript" src="{% static 'coming_soon/js/jquery.js' %}"></script>
+	<script type="text/javascript" src="{% static 'coming_soon/js/TimeCircles.js' %}"></script>
+	<script type="text/javascript" src="{% static 'coming_soon/js/backstretch.js' %}"></script>
+	<script type="text/javascript" src="{% static 'coming_soon/js/main.js' %}"></script>
+	<script type="text/javascript">
+		IMG_1 = "{% static 'coming_soon/img/bg_img.jpg' %}";
+		IMG_2 = "{% static 'coming_soon/img/bg_img2.jpg' %}";
+		IMG_3 = "{% static 'coming_soon/img/bg_img3.jpg' %}";
+	</script>
+{% endblock scripts %}
+
+{% block content %}
+	<section class="content wrapper">
+
+		<h1>Esta página página está en contrucción</h1>
+		<p class="description">El contenido de esta pagina está en construcción. Brevemente estará disponible.</p>
+
+		<div class="counter clear" data-date="2017-01-01 00:00:00"></div>
+
+	</section>
+
+	<div class="bg_gradient"></div>
+	<div class="gradient_back_img"></div>
+{% endblock content %}
