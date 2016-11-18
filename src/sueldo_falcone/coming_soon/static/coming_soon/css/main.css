@@ -253,7 +253,7 @@ h5, h6          { font-weight: bolder }
     margin: 0px;
     padding: 0px;
     z-index: -9999;
-    background: #50cda7 url('../img/library-488677_1920.jpg') no-repeat;
+    background: #50cda7 url('../img/bg_img_raw.jpg') no-repeat;
     background-position: center 0;
 
     -webkit-background-size: cover;
