@@ -1,17 +1,21 @@
 {% extends "base.html" %}
-{% load static %}
+{% load static compress %}
 
 {% block title %}Sueldo Falcone - Página en construcción{% endblock title %}
 
 {% block styles %}
+	{% compress css %}
 	<link rel="stylesheet" type="text/css" href="{% static 'coming_soon/css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'coming_soon/css/main.css' %}">
+	{% endcompress %}
 {% endblock styles %}
 
 {% block scripts %}
+	{% compress js %}
 	<script type="text/javascript" src="{% static 'coming_soon/js/jquery.js' %}"></script>
 	<script type="text/javascript" src="{% static 'coming_soon/js/TimeCircles.js' %}"></script>
 	<script type="text/javascript" src="{% static 'coming_soon/js/main.js' %}"></script>
+	{% endcompress %}
 {% endblock scripts %}
 
 {% block content %}
